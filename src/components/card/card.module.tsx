@@ -1,10 +1,10 @@
-import {DataProduct} from "@/dummy/data"
+import { DataProduct } from "@/dummy/data"
 
-export default function Card({id, title, description, image, price, category, onClick}: DataProduct) {
+export default function Card({ id, title, description, image, price, category, onClick }: DataProduct) {
     return (
-        <div id={id} className="border p-4 rounded shadow-sm hover:bg-slate-200 cursor-pointer" onClick={onClick}>
+        <div id={id} className="border p-4 rounded shadow-sm hover:bg-slate-200 cursor-pointer" onClick={onClick} >
             <img
-                src={image !== ? image : 'https://i.pinimg.com/736x/82/a3/3a/82a33a43be59e913b58efbdfd64e281e.jpg'}
+                src={image !== "" ? image : 'https://i.pinimg.com/736x/2a/86/a5/2a86a560f0559704310d98fc32bd3d32.jpg'}
                 alt={title}
                 className="w-full h-40 object-cover mb-2 rounded"
             />

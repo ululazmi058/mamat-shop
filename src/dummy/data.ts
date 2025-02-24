@@ -6,72 +6,98 @@ export interface DataProduct {
     price: number;
     category: 'Beras' | 'Minyak' | 'Gula' | 'Telur';
     onClick?: () => void;
-    detail?: string; // Properti Opsional 
+    detail?: string; // Properti opsional untuk deskripsi lebih detail
 }
 
 export const data: DataProduct[] = [
     {
         id: "1",
-        title: "Beras Pandan Wangi 5kg",
-        description: "Beras premium dengan aroma pandan wangi, cocok untuk nasi putih yang pulen.",
+        title: "Beras Pandan Wangi",
         image: "",
-        price: 75000,
-        category: "Beras"
+        description: "Beras pandan wangi asli, pulen dan harum khas.",
+        price: 15000,
+        category: "Beras",
+        detail: "Beras Pandan Wangi diproduksi dari padi unggulan dengan proses penggilingan modern, menghasilkan beras yang pulen dan wangi. Cocok untuk nasi putih sehari-hari atau hidangan spesial."
     },
     {
         id: "2",
-        title: "Minyak Goreng Kelapa 2L",
-        description: "Minyak goreng sehat dari kelapa murni, bebas kolesterol.",
+        title: "Beras Merah Organik",
         image: "",
-        price: 35000,
-        category: "Minyak"
+        description: "Beras merah organik, kaya serat dan nutrisi.",
+        price: 20000,
+        category: "Beras",
+        detail: "Beras Merah Organik ditanam tanpa pestisida dan bahan kimia, kaya akan serat dan nutrisi. Cocok untuk diet sehat dan penderita diabetes."
     },
     {
         id: "3",
-        title: "Gula Pasir Halus 1kg",
-        description: "Gula pasir halus berkualitas tinggi, cocok untuk berbagai keperluan memasak.",
+        title: "Minyak Goreng Kelapa",
         image: "",
-        price: 15000,
-        category: "Gula"
+        description: "Minyak goreng kelapa murni, sehat dan rendah kolesterol.",
+        price: 25000,
+        category: "Minyak",
+        detail: "Minyak Goreng Kelapa dibuat dari kelapa segar, mengandung asam lemak baik yang ramah untuk jantung. Cocok untuk menggoreng dan menumis."
     },
     {
         id: "4",
-        title: "Telur Ayam Negeri 1kg",
-        description: "Telur ayam negeri segar, kaya protein dan nutrisi.",
+        title: "Minyak Goreng Sawit",
         image: "",
-        price: 25000,
-        category: "Telur"
+        description: "Minyak goreng sawit kemasan 2 liter, ekonomis.",
+        price: 30000,
+        category: "Minyak",
+        detail: "Minyak Goreng Sawit diproses dari buah kelapa sawit pilihan, tahan lama, dan ekonomis. Cocok untuk kebutuhan rumah tangga dan usaha."
     },
     {
         id: "5",
-        title: "Beras Merah Organik 2kg",
-        description: "Beras merah organik, tinggi serat dan baik untuk diet sehat.",
+        title: "Gula Pasir Putih",
         image: "",
-        price: 50000,
-        category: "Beras"
+        description: "Gula pasir putih halus, cocok untuk minuman dan masakan.",
+        price: 12000,
+        category: "Gula",
+        detail: "Gula Pasir Putih diproduksi dari tebu pilihan, halus dan mudah larut. Cocok untuk minuman, kue, dan masakan sehari-hari."
     },
     {
         id: "6",
-        title: "Minyak Zaitun Extra Virgin 500ml",
-        description: "Minyak zaitun extra virgin, kaya antioksidan dan baik untuk jantung.",
+        title: "Gula Merah",
         image: "",
-        price: 120000,
-        category: "Minyak"
+        description: "Gula merah alami, cocok untuk minuman tradisional.",
+        price: 15000,
+        category: "Gula",
+        detail: "Gula Merah dibuat dari nira kelapa asli, memiliki rasa manis alami. Cocok untuk minuman tradisional seperti wedang jahe atau kolak."
     },
     {
         id: "7",
-        title: "Gula Merah Aren 500gr",
-        description: "Gula merah aren alami, cocok untuk minuman tradisional dan masakan.",
+        title: "Telur Ayam Kampung",
         image: "",
-        price: 20000,
-        category: "Gula"
+        description: "Telur ayam kampung organik, kaya nutrisi.",
+        price: 35000,
+        category: "Telur",
+        detail: "Telur Ayam Kampung berasal dari ayam yang dipelihara secara alami, kaya protein dan nutrisi. Cocok untuk lauk atau bahan kue."
     },
     {
         id: "8",
-        title: "Telur Bebek Omega-3 1kg",
-        description: "Telur bebek kaya omega-3, baik untuk kesehatan otak dan jantung.",
+        title: "Telur Ayam Negeri",
         image: "",
-        price: 40000,
-        category: "Telur"
+        description: "Telur ayam negeri segar, 1 kg isi sekitar 16-18 butir.",
+        price: 25000,
+        category: "Telur",
+        detail: "Telur Ayam Negeri diproduksi dengan standar kebersihan tinggi, segar dan bergizi. Cocok untuk konsumsi sehari-hari."
+    },
+    {
+        id: "9",
+        title: "Beras Hitam",
+        image: "",
+        description: "Beras hitam organik, kaya antioksidan.",
+        price: 30000,
+        category: "Beras",
+        detail: "Beras Hitam Organik mengandung antioksidan tinggi, baik untuk kesehatan jantung dan pencernaan. Cocok untuk menu diet sehat."
+    },
+    {
+        id: "10",
+        title: "Minyak Goreng Jagung",
+        image: "",
+        description: "Minyak goreng jagung, rendah lemak jenuh.",
+        price: 28000,
+        category: "Minyak",
+        detail: "Minyak Goreng Jagung terbuat dari jagung pilihan, rendah lemak jenuh, dan cocok untuk menggoreng dengan hasil gurih dan renyah."
     }
 ];
